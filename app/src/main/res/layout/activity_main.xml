@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:id="@+id/livesLayout"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/life1"
+            android:src="@drawable/heart"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/life2"
+            android:src="@drawable/heart"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/life3"
+            android:src="@drawable/heart"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/RockLeft"
+        android:src="@drawable/asteroid"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-200dp"
+        android:layout_marginStart="24dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/RockMid"
+        android:src="@drawable/asteroid"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-200dp"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/RockRight"
+        android:src="@drawable/asteroid"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="24dp"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="-200dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <ImageView
+        android:id="@+id/car"
+        android:src="@drawable/car"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp" />
+
+
+
+    <ImageButton
+        android:id="@+id/btnLeft"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/leftarrow"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="24dp" />
+
+    <ImageButton
+        android:id="@+id/btnRight"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/rightarrow"
+        android:scaleType="centerInside"
+
+
+        />
+
+</RelativeLayout>
